@@ -21,7 +21,7 @@ int main (){
 			if (n<=4)
 			cout<<t<<" ";
 			else if (n%2==0)
-			cout<<t[0]<<t[n/2-1]<<t[n/2]<<" ";
+			cout<<t[0]<<t[n/2-1]<<t[n/2]<<" "<<t[n-1];
 			else cout<<t[0]<<t[n/2]<<t[n-1]<<" ";
 			 t="";
 			
